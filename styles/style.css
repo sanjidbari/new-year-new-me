@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-button {
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+}
+
+/* banner styles */
+.banner {
+    padding: 140px 180px 180px 845px;
+    background-image: url(../images/banner/banner3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    color: #FFFFFF;
+}
+
+/* main section styles */
+main {
+    margin: 100px 150px;
+}
+
+/* image section styles */
+
+.ul-section {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.ul-description {
+    
+}
