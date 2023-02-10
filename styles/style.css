@@ -41,12 +41,151 @@ main {
 
 /* image section styles */
 
-.ul-section {
+.previous-year-section {
     display: flex;
     gap: 90px;
     align-items: center;
 }
 
-.ul-description {
-    
+.year-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 24px;
+    padding-right: 10px;
+}
+
+.year-description {
+    color: #444343;
+    padding-bottom: 16px;
+}
+
+.check-list p {
+    padding-bottom: 10px;
+}
+
+.check-list i {
+    padding-right: 10px;
+}
+
+/* my plans style */
+
+.my-plans-heading {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.resolutions {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+}
+
+.single-item-resolution {
+    text-align: center;
+}
+
+.resolution-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+
+.resolution-description {
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+}
+
+/* call me styles */
+.call-me-section {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.call-me-title {
+    margin-top: 190px;
+    padding-left: 64px;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    word-wrap: break-word;
+    color: #FFFFFF;
+}
+
+.call-me-section button {
+    margin-left: 64px;
+    margin-bottom: 60px;
+}
+
+/* contact section styles */
+footer {
+    background-color: #151414;
+    margin-top: 130px;
+    padding-bottom: 130px;
+}
+
+.contact-section {
+    display: flex;
+    gap: 330px;
+    align-items: center;
+}
+
+.future-contact-section {
+    padding-top: 130px;
+    padding-left: 230px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+
+.future-contact-description {
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.future-contact-info {
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.future-contact-section img {
+    padding-top: 24px;
+    padding-right: 17px;
+}
+
+.subscribe-section {
+    padding-right: 230px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+}
+.input-field {
+    padding: 21px 158px 21px 21px;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+border-radius: 8px;
+background: #151414;
+}
+
+.subscribe-button {
+    background: #005FAC;
+    margin-top: 16px;
+border-radius: 8px;
+padding: 20px 36px 20px 36px;
+border: none;
 }
